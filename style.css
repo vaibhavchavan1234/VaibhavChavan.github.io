@@ -1,0 +1,268 @@
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+	background: #d7d7d7;
+}
+::-webkit-scrollbar-thumb{
+	background: rgba(239,37,155,1);
+	border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: red;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background: #aaaaab;
+	font-family: Arial,Helvitica,sans-serif;	user-select: none;
+    -moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+/*----Header----- */
+
+#top-header{
+	background: #202326;
+	width: 100%;
+	height: 60px;
+	border-bottom: 4px solid #d46224;
+}
+
+#header img{
+	height: 50px;
+	width: 100%;
+	margin: 15px 20px;
+	user-select: none;
+}
+
+/*------Navigation----- */
+#nav{
+
+	background: #4a66a0;
+	width:100%;
+	height: 44px;
+}
+
+#nav-menu{
+	background: #4a66a0;
+	height: 41px;
+	display: block;
+	border:1px solid #080808;
+	width: auto;
+}
+
+#nav-menu.align-center > ul{
+	text-align: center;
+}
+
+#nav-menu > ul > li{
+	list-style: none;
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+
+#nav-menu a{
+	line-height: 1;
+}
+
+#nav-menu.align-center ul ul{
+	text-align: left;
+}
+
+#nav-menu> ul > li > a{
+	display: block;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 17px;
+	border-right: 1px solid #080808;
+	color: #fff;
+	padding: 12px 30px;
+}
+
+#nav-menu> ul > li.has-sub > a:before{
+	content: "";
+	position: absolute;
+	top:18px;
+	right: 6px;
+	border: 5px solid transparent;
+    border-top:5px solid #fff;
+}
+
+#nav-menu> ul > li.has-sub:hover > a:before{
+	top:22px;
+}
+
+#nav-menu> ul > li.has-sub:hover > a{
+	padding-bottom:14px;
+	z-index: 999;
+}
+
+#nav-menu ul li:hover > ul{
+	display: block;
+}
+
+#nav-menu > ul > li > a:hover{
+	background:#3f3f3f; 
+}
+
+#nav-menu ul li > ul{
+	display: none;
+	width: auto;
+	position: absolute;
+	top:38px;
+	background: rgba(183,0,255,0.9);
+	border-radius: 0 0 5px 5px;
+	z-index: 999;
+	padding: 10px 0;
+	width: 170px;
+}
+
+#nav-menu ul ul ul{
+	position: absolute;
+}
+
+#nav-menu ul ul li:hover > ul{
+	left:100%;
+	top:-10px;
+	border-radius: 5px;
+}
+
+#nav-menu ul li > ul li{
+	display:block;
+	list-style: none;
+	position: relative;
+}
+
+#nav-menu ul li > ul li a{
+	outline: none;
+	display: block;
+	position: relative;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 8px 20px;
+}
+
+#nav-menu ul ul > li:hover > a,
+#nav-menu ul ul li a:hover{
+	background: #107c10;
+}
+
+#nav-menu > ul > li:hover > a{
+	background:rgba(183,0,255,0.9);
+}
+
+/*-------content-------*/
+#content{
+	text-align: center;
+}
+
+iframe{
+	background: #e2e2e2;
+	width:80%;
+	height: 500px;
+}
+
+.border1{
+	border-top: 4px solid #d46224;
+}
+
+.border2{
+	border-bottom: 4px solid #d46224;
+}
+#content p{
+	font-size: 24px;
+	font-family: arial;
+	color: purple;
+	padding: 5px;
+}
+
+/*------Footer---------*/
+.footer{
+	width: 100%;
+	height: 300px;
+	background: #333333;
+}
+.f1,.f2{
+	width: 28%;
+	height: 300px;
+	float:left;
+	border-right:1px solid #828283;
+}
+.f1 ul,.f2 ul{
+	width:50%;
+	padding: 10px;
+	font-size: 24px;
+	list-style: none;
+	margin: 20px auto;
+}
+
+.f1 ul li,.f2 ul li{
+	margin-bottom: 5px;
+	color: #fff;
+}
+.f3{
+	height: 300px;
+	float: left;
+}
+#footer-img img{
+	height: 90px;
+	width:360px;
+	margin: 25px 30px;
+	margin-left:100px;
+}
+
+.footer .contact p{
+	margin-left: 120px;
+	color:#fff;
+}
+
+.footer .contact ul{
+	list-style: none;
+	margin-left: 100px;
+}
+
+.footer .contact ul li a img{
+	float:left;
+	margin-left: 20px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;*/
+}
+
+.footer .contact ul li a img:hover{
+    	-webkit-transform: rotate(360deg);
+    	-moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+	    -ms-transform: rotate(360deg);
+	    transform: rotate(360deg);*/
+}
+
+#copy{
+	position: absolute;
+	background: #202326;
+	width: 100%;
+	margin-top:300px;
+}
+
+#copy p{
+	float:left;
+	padding: 20px 150px;
+	color:#aaaaab;
+}
+
+#copy p a{
+	text-decoration: none;
+	color:#aaaaab;
+}

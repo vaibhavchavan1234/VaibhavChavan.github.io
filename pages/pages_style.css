@@ -1,0 +1,99 @@
+body{
+	background: rgb(30,30,40);
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+/*-----Home----*/
+#home{
+	text-align: center;
+}
+#home img{
+	height: 150px;
+	width: 320px;
+	
+}
+#info{
+   font-size: 24px;
+   font-family: arial;
+   text-align: justify;
+   color: #fff;
+}
+/*-----Courses------*/
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+th{
+	background: #4caf50;
+	color: #fff;
+}
+th,td{
+	text-align: left;
+	border: 1px solid #d7d7d7;
+	padding: 15px;
+}
+tr:nth-child(even){
+	background: #f2f2f2;
+}
+
+tr:nth-child(odd){
+	background: #e2e2e2;
+}
+/*-----Tips,Projects,About------*/
+
+.heading{
+	font-family: monotype corsiva;
+	font-size: 38px;
+	color:green;
+	text-align: center;
+}
+.content{
+	font-size: 28px;
+	font-family: arial;
+	color: #fff;
+}
+
+/*----contact-----*/
+form{
+	max-width: 420px;
+	margin: 50px auto;
+}
+.contact-input{
+	color: #fff;
+	font-family: Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    line-height: 22px;
+    background: transparent;
+    border:2px solid #4caf50;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.7s ease;
+    resize:none;
+}
+.contact-input:focus{
+	border:2px solid #cc4949;
+}
+[type="submit"]{
+	font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+	width: 100%;
+	background: #4caf50;
+	border-radius: 10px;
+	cursor:pointer;
+	color: #fff;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.7s;
+    margin-top: -4px;
+    font-weight:700; 
+
+}
+[type="submit"]:hover{
+	background: #cc4949;
+}
